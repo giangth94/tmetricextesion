@@ -80,6 +80,13 @@ class Clickup {
         }
         const projectName = $$.try('.breadcrumbs__link[data-category]').textContent;
         const tagNames = tags.map(_ => _.textContent);
+        if (!issueId && !issueUrl) {
+          var splitPath = source.path.split('/');
+          if (splitPath[1] == 't' && /[A-Z]{2,}-[0-9]{3,}$/.test(splitPath[3])) {
+            issueId = splitPath[3];
+            issueUrl = source.path;
+          }
+        }
         return { serviceType, serviceUrl, issueId, issueName, issueUrl, description, projectName, tagNames };
     }
 }
