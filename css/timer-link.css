@@ -1,0 +1,369 @@
+.devart-timer-link {
+  text-decoration: none;
+  white-space: nowrap !important;
+}
+.devart-timer-link-minimal {
+  width: auto !important;
+}
+.devart-timer-link-minimal .devart-timer-link-icon ~ span {
+  display: none;
+}
+.devart-timer-link-text-only .devart-timer-link-icon {
+  display: none !important;
+}
+.devart-timer-link-icon {
+  margin: -2px 0 !important;
+  padding-right: 3px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+.devart-timer-link-icon:before {
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  background-size: 16px 16px !important;
+  content: "" !important;
+}
+.devart-timer-link-start > .devart-timer-link-icon:before {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR9SURBVHgBtVddTBxVFP5mXZDCVrdSQqqNne2PSU3aLspD+6CAoaI0qZD41lhpmuCDVhAfjDEElRiND7KN1UQrYfv7uq0PGlMjS5uGatJ2WZKSiNYhWn7Edod0EcourOfc3lmms7O/1C852Tt3z9zvu+eee+5cBTkikUi46aeJrIbMS6aSueXfOplGFiILkp1VFEXH/QARq2Q9ZJFEfujjd7ONr2Qg5tm9T9Zm9AUjv+LM9BBCt29Am7+Fsfmbot/tXIUdq9fD63oMTRVe1K7ZYh7KR9F4Ky8BUnk/7oYZ/vFL8E9cwoA+ilygljyCLs8etDy60+jSyOpIiJZVAJHz+gZ4HG3uJlqunciZ2AqORP9T7WYRzSQiZPZxWMhVgzx0+y9U/fJxweTqqnL0PblftK9cDcH3+RfqnzfGA9a8cFre6zfI6674oMfnUCg5z5yX4rvvf8BHn3wq+incatuh1/tJRJWxS5IRoE4fZNibw19lJXc7S4mgXBi3s5Ezqqq8woWsy+hTJDl3/sFtz8VOkeHp0LJuJ14ls2Q6OGqcqO2PP2dL/t6776DxhefNr3g4KQ0BfTw2Z/uBkRO2xGJNt76SQmyHHMgZYnsqcr9HkGH25rCuhDw+OAhMTcHZxAVVVE8PJ6F44iKTLvT3gzwWCCB29CiUsjI8sHs3//LEX+Ik5NpOFS5sOyiv+UrJF06eFOSMxOwsFs+dM9xqWYBITU4iO3DCrZQ8fvr0Pf5Lw8NG08sCVG4NRe0FmJPu/IWLaNizFy0HWxGNRrOSx2mmVnLG4vXrRlPlHBBHqt2+5z1uxuTkJBHPYvS33/FGWwcRNeDwkS9tyQVcLtghQYko4XYgDzS+2IAtmzeJNovISE7ghMsGFiBKIh+pVmjyuDXgohkdOfxZUkQmcgYnnB1MwnQWoHHL61pv6xyMjGYUkY6cscj73gaOTckJaJwDfDx6+YMiaHPyHZsYTKl+LMLf+7XIB5fLPsxLtM5LaQQoGzcazRBHYIBbTRXbbZ39Ez+nRGFZSPo1jp06lXYJnLt2Gc0gCzhDpteueUKUXCu8/Km12n55MsFRWWnbr1C/Y9s24/GsQ57Lfn7q8jSmkHMZ5gQ9PhbFy4PTGPs3jnTQY0vk87fwLdq3D0WtrSk+3C/hZ+6U47jusk/kgpX84OXlHbF/Qxn2riuFu+juLtZI1Pl/5vHt+JwQweh9upz8XFgMh7HQ3S2Ww1lfj+KODmOY5eNYiuihn3Y+kA5cO47A9tcE+ZC+gOqfJpAvWNyPz1Rih7tYJGSspwfFnZ3GFkx+KZsFcEW8ClmaGUxef2EqOauViDBBI3KP8ZCshDIX6iDrAuPDEb1gcga/2z0ycw+55ECKACmCHZqlI3qr1+LQ5odQKN6kd7+pLjeTN1vvBjldTHgp3h6+hYHpO8gFNRUl6Nz6MGrWlpjJc7uYmERwTvDXa/JmMTSzgGNjswjP3CFRseTybCh1Qi1zCsJnKx40EzP4a/uDgi+r8nLal8gPEXmhVbONryBH/F/X8/8ArgV7zCgdTicAAAAASUVORK5CYII=") !important;
+}
+.devart-timer-link-stop > .devart-timer-link-icon:before {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPzSURBVHgBtVdNTBNBFH5bCpjQAye4FtAjBG5wQhIQxUTwzKWJCRchIBcwhqgQE/DAT0QPEAMH4Fp70RhIQI2BkzRwVLCJ0QAXeoAI/VvfN51th2W33bb4JZPubmfm++bNm/feaOQQuq6X808Xt2Zu9dy83Mrl32FuIW5BbhvcApqmhekqwMReblPcjvXcsICx2ebXMhBjdc+49Rvf4js7FN/aosTeHumHh6QfHSUnKSsjrbqaXDU1VNTYSEV1depU02yNRzkJkMrXKWlmiq2uUmxtjRK7u+QEWmUlFXd3k7u11fgU4tbCQkJZBTA59tcP8gSvMjI56ZjYDFdtLV2bmFBF3GcRwQt9TOTeFDmb+by3N29yWKF0cFA8f9sO0vSr195fv//4zX7hNo1bT5EPD5N+ekr5kl8bHxe/7z98pBfjL5Pfee7+vofrLKLBOCUpC/DHaZJmPx8by0ouHI8JROPnbORAQwN2V/jV01R/SY6PP/H81+dLebcV4FjutjaxvyoS+/vCUYs7Oy3Jnzweoo7bt9QhVXBKQ8AC//jg7ZGpKUtiY0/NxFZwQA6I46nJ835MGVavmrUQ8tjmJhFvsbsLAVVEzyo4oXhDkLEz/VWQR/1+is7PC38p4i3kXyy8E07YLARAnQWw54WSR5aWBDkA547zVkvchADhmnAiSwGstlDy2MrKhf5KbKmHAK9QZiNAdbrPX75S+9175HvQQycnJ1nJRQg3kQPxNJcXPiBSqtW5N5v+4OCAiU/p+4896u0fZKJ2mpl9Y0ku4PGQFZDIJMpdlAM67rTTjes14hkiMpITXQhQdoCAsF1nRamAh1c0OzOZEpGJXIy3iaYKVxgCQuIj53Mr4HhmEmFHLsbanCzUDRIh+ADSY72LBVhlvjiHV1OBIUQsvp0T/uDxWJsZOSVhI0BZbBAW+ISnoqYmy86I72YrpIXY73F0edl2C9xprg0IeMctjFVqFRVkpVYxmWO4bIIXTpZytAMumZcX8YYyykyOigZOgzMt0rTJMVVgxeejo8msyHMV9/Rc6qNwLIL7Ujo+GxoSvmAmV7MkwrOLzWh4M0RhDJzOMHsJZ070w/ZFZH2B9xJZJZGajqUIMAyIOpDJSkdGBAGqo7O+PsoVGFvKCxDOzXNGec4SOScplbIqABFxm2RoBgouzRQRCkJMXmW8pCKh9IUWknEBiHIcz5ccwFicBpVccqRFXhqklOU6JxxMEAsEKB+g8IDTSbOHyKIsd3QxQaqOzs3ZxgMzcKRBrBy3EDm9mCgi4BOoXgeMb0bhidQtrmdye8TZlucb5Ka6EdX287wvq/JyuqDnhmN5ofVmm18jh/hf1/N/Dq2Ce1IU0SwAAAAASUVORK5CYII=") !important;
+}
+.devart-timer-link-minimal.devart-timer-link-start > .devart-timer-link-icon:before {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJxSURBVHgB7Ze/b9NAFMe/5wSJbhFMDEjuwsCAKBOCgaQEoU4tYkY1C0oKQ/sPQICBEZBQw9YiVqSkC0htwOnCwNKwMIBELBhRkSeo1NrHuytp4/jX+Uen9iP5R+R3d1+/e+/lGTjssETWa/fK0Pg0OMpgXKdr6f8sNjjr0bUHl63g2ouu6pRqAt7PGXR+QAvqSvYMFgltoNJ8FW8ahVnT4RRaAD+PNEghbgWVl1aYiRY6eLVmwNU2Ui8uEB5zaI5OfQahGoOQA1gLucINVP1b4hcg3C7efBBg+WGj4E6Mbod/C1zNPIDFBaXdePLiFSCiXTXSU0HxZNZnESpApFoM/cuP5aGPnUQqXNYIFiCKjMLb68dPyKN/6RGenrmZXIhYY61W9gsQFS4h86cnYV6Yx+ypi4nGQStM+wVwpMp34Y3ls7ewRIeyN1xe9gvIUnAIg7yg7A22v9XDQZg59QbeaJ27E2daChKQG6XimLJtcejeRkYv2Dt/0Pj+Fs9/mrGmAQKYlSUO2r8+Y+HrG1hbvxWsec8vgKGbJhOsv5swvrzGuv1NfRDT9gTsx4DrrCAhz36YmPj0JNniUoDb3rv1POjM9emsR40VFdDa2pR7nXjhXSxUF8cHP4qeRy4ekk+WokaPf7yPbFCrNoS/H+jc3chalCLwvL3AXwe2nRsYSpMcsbFN/eEIfgFT1LEwLCBvHH5bzh0rQHB1cZm2IS9P2LIfvN5sBz2MbsvfUX94TBNlTUcaxMfKDm3pVHhbrvZhskqtmia7JR1qWDLaq1k/TEb5UL9Cff4MFRLKEiYyZfDfYctFOetS59vGZHMdRyjyD2gMyGz0g88eAAAAAElFTkSuQmCC") !important;
+}
+.devart-timer-link-minimal.devart-timer-link-stop > .devart-timer-link-icon:before {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIRSURBVHgB7ZdNTsJQEMdnXhMT4kdg5bbeAE8gbkxho55AOIInEE+inkBd0bgRTyA3sFtXEpVojL5xRqSUvrY8KsWF/laUTt/7d+bNRwH+OjiL8ZPn1RzEXQKoAaILROXhKtgnop4C6H0QXa76ftd2TSsBz57XVIhHvLFrY8+LBkjULvn+mYVtOi+e5xLiOW9chRx8C9lmIUGajUq78dxoNLVSt3k3F8RjGvH2cWdnD9JFmgzkAcc5hzmiiJpJITEEiNvlzcMDNj/6LGIzHg4jBBzz6wI2F8ocDsOrEwLktNue9JxU2cMHkCZAUg0Khj3cjl6HZ0CKjBL3Z1A6OQFcX88yAX1/D6+tVrYNp+aoWIUekAoHU5i2+deCFjYOUbhXNAS5831WOMtqEBfAsVmYAIwc9LEHikm9NMqmgF9iLIBbKiyOvimAOxcsCJkdIC6A22YXFoRKEiCTzLQHiYvMNLSFDSp1Ef6O3hjU63dQbC8QguVOZ2N0MZEF7IVjKBiOfzt6bcwDg0ZDZoGiitLE2wtGHXjTer+IlORK23/jJhT/3xBQ4YmFtD6EOaPf31uVhOE0sRKu+P7pB8BcPCFvLvPg2tXVRdL9zLH8gefDpeGM4EI+euz2/UrGWG71YfLIo5oznJZcsCOQ077y0w+TOC/1+hafjz0OTZV7ehW/O6i4mX8HqHVXikyp07mBfyz5BMkM0EG51UZAAAAAAElFTkSuQmCC") !important;
+}
+.devart-timer-link-asana {
+  margin: 1em 0;
+}
+.devart-timer-link-asana-subtask.devart-timer-link-minimal {
+  opacity: 0;
+}
+.ItemRow:hover .devart-timer-link-asana-subtask.devart-timer-link-minimal:hover {
+  opacity: 1;
+}
+.ItemRow:hover .devart-timer-link-asana-subtask.devart-timer-link-minimal:not(:hover) {
+  opacity: 0.54;
+}
+.devart-timer-link-assembla {
+  margin-top: 1em !important;
+}
+.devart-timer-link-axosoft {
+  float: right;
+  margin-top: 10px;
+}
+.devart-timer-link-bitbucket {
+  margin-right: 10px;
+}
+.devart-timer-link-bugzilla {
+  margin: 0 0.5em;
+  font-weight: normal;
+  font-size: smaller;
+}
+.devart-timer-link-freshdesk a:hover {
+  text-decoration: none;
+}
+.devart-timer-link-google-mail {
+  margin-left: 15px;
+  font-size: smaller;
+  color: #727272;
+}
+.devart-timer-link-google-calendar-detailed {
+  margin-left: 30px;
+  margin-top: -2px;
+  margin-bottom: 10px;
+}
+.devart-timer-link-google-calendar-popup {
+  margin-right: 10px;
+}
+.devart-timer-link-google-calendar-popup-modern {
+  display: inline;
+  align-self: center;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 0;
+}
+.devart-timer-link-google-calendar-popup-modern span {
+  color: #3c4043;
+}
+.devart-timer-link-google-inbox {
+  opacity: 1 !important;
+}
+.devart-timer-link-google-keep-item {
+  position: absolute;
+  top: 8px;
+  right: 32px;
+  opacity: 0;
+}
+.CmABtb.RNfche:hover .devart-timer-link-google-keep-item:hover {
+  opacity: 1;
+}
+.CmABtb.RNfche:hover .devart-timer-link-google-keep-item:not(:hover) {
+  opacity: 0.54;
+}
+.devart-timer-link-google-keep-note {
+  margin: 0px 8px;
+}
+.devart-timer-link-google-keep-note .devart-timer-link-icon {
+  vertical-align: top !important;
+  margin-top: 7px !important;
+}
+.devart-timer-link-openproject .devart-timer-link-icon {
+  line-height: 1 !important;
+}
+.devart-timer-link-pipedrive {
+  margin-top: 4px !important;
+  margin-right: 8px !important;
+}
+.devart-timer-link-pipedrive .devart-timer-link-icon {
+  line-height: 1 !important;
+}
+.devart-timer-link-openproject-container {
+  margin-top: 20px !important;
+}
+.devart-timer-link-pivotaltracker {
+  margin-top: 1em;
+}
+.devart-timer-link-podio {
+  width: auto !important;
+  margin-top: 1px !important;
+}
+.devart-timer-link-producteev {
+  margin: 0 1em;
+}
+.devart-timer-link-producteev-minimal {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  opacity: 0;
+}
+.subtasks-list li:hover .devart-timer-link-producteev-minimal:hover {
+  opacity: 1;
+}
+.subtasks-list li:hover .devart-timer-link-producteev-minimal:not(:hover) {
+  opacity: 0.5;
+}
+.devart-timer-link-sprintly > a {
+  display: block;
+  padding: 7px;
+}
+.devart-timer-link-sprintly:hover > a {
+  color: #fff !important;
+}
+.devart-timer-link-teamwork {
+  border: none !important;
+}
+.devart-timer-link-teamwork > a {
+  width: auto !important;
+  transform: scale(1) !important;
+  font-size: 13px !important;
+  margin-top: 2px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.task-row .devart-timer-link-teamwork > .devart-timer-link-start {
+  display: none !important;
+}
+.task-row:hover .devart-timer-link-teamwork > .devart-timer-link-start {
+  display: initial !important;
+}
+.devart-timer-link-teamwork-desk-task {
+  margin-left: 0.5rem !important;
+}
+.task-list-item .devart-timer-link-teamwork-desk-task.devart-timer-link-start {
+  display: none !important;
+}
+.task-list-item:hover .devart-timer-link-teamwork-desk-task.devart-timer-link-start {
+  display: initial !important;
+}
+.devart-timer-link-teamwork-desk-ticket {
+  margin-right: auto !important;
+  margin-left: 0.5rem !important;
+}
+.devart-timer-link-teamwork-desk-ticket .devart-timer-link {
+  display: inline-block !important;
+}
+.devart-timer-link-tfs {
+  float: left;
+  line-height: 32px;
+  padding-right: 10px;
+}
+.task_item .devart-timer-link-todoist,
+.task_list_item .devart-timer-link-todoist {
+  margin-right: 1em;
+}
+.task_item .devart-timer-link-todoist.devart-timer-link-start,
+.task_list_item .devart-timer-link-todoist.devart-timer-link-start {
+  visibility: hidden !important;
+}
+.task_item:hover .devart-timer-link-todoist.devart-timer-link-start,
+.task_list_item:hover .devart-timer-link-todoist.devart-timer-link-start {
+  visibility: visible !important;
+}
+.item_overview .devart-timer-link-todoist {
+  text-decoration: none;
+}
+.item_overview .devart-timer-link-todoist .devart-timer-link-icon {
+  align-self: center;
+  margin: 0 !important;
+  line-height: 1 !important;
+}
+.devart-timer-link-trac {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  float: right;
+}
+.devart-timer-link-trello.devart-timer-link-minimal {
+  margin-top: 3px;
+  margin-left: 3px;
+  opacity: 0;
+}
+.checklist-item:hover .devart-timer-link-trello.devart-timer-link-minimal,
+.devart-timer-link-trello.devart-timer-link-minimal.devart-timer-link-stop {
+  opacity: 1;
+}
+.devart-timer-link-test-rail {
+  padding: 0px 10px !important;
+}
+.devart-timer-link-test-rail .devart-timer-link-icon {
+  line-height: 10px !important;
+}
+.devart-timer-link-wrike {
+  margin-right: 12px !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+}
+.devart-timer-link-youtrack {
+  color: inherit;
+  margin-right: 30px !important;
+}
+.devart-timer-link-zendesk {
+  margin-top: 5px;
+  float: right;
+}
+.devart-timer-link-jira-next {
+  margin-left: 8px;
+}
+.task__toolbar .devart-timer-link-clickup {
+  margin-right: 1rem !important;
+}
+.task-todo-item .devart-timer-link-clickup.devart-timer-link-start,
+.task-todo-item:hover .lv-subtask__outer:not(:hover) .task-todo-item__name-text-inner .devart-timer-link-clickup.devart-timer-link-start,
+.checklist2-row .devart-timer-link-clickup.devart-timer-link-start {
+  visibility: hidden !important;
+}
+.task-todo-item:hover .devart-timer-link-clickup.devart-timer-link-start,
+.task-todo-item .lv-subtask__outer:hover .task-todo-item__name-text-inner .devart-timer-link-clickup.devart-timer-link-start,
+.checklist2-row:hover .devart-timer-link-clickup.devart-timer-link-start {
+  visibility: visible !important;
+}
+.devart-timer-link-microsoft-office-live {
+  color: inherit;
+  display: inline-block;
+  padding: 1rem;
+  vertical-align: top;
+}
+.devart-timer-link-microsoft-outlook-live {
+  margin: 0 0.5rem;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  color: inherit;
+}
+.devart-timer-link-microsoft-outlook-live .devart-timer-link-icon {
+  margin: 4px 0 0 0 !important;
+}
+.devart-timer-link-easy-redmine {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.devart-timer-link-evernote {
+  display: flex;
+  font-size: 14px;
+}
+.devart-timer-link-evernote .devart-timer-link {
+  align-items: center;
+  display: flex;
+  padding: 0 7px 2px 2px;
+}
+.devart-timer-link-monday-slide-panel {
+  margin: 0 20px !important;
+}
+.devart-timer-link-monday-slide-panel .devart-timer-link-icon {
+  vertical-align: bottom !important;
+}
+.devart-timer-link-monday-icon {
+  padding: 0 4px;
+  font-size: 20px;
+  opacity: 0.54;
+}
+.devart-timer-link-monday-icon:hover {
+  opacity: 1;
+}
+.devart-timer-link-monday-card-dialog {
+  margin-right: 8px;
+}
+.devart-timer-link-monday-card-dialog .devart-timer-link-icon {
+  vertical-align: bottom !important;
+}
+.devart-timer-link-microsoft-todo {
+  opacity: 0.54;
+  margin: 0 10px;
+}
+.devart-timer-link-microsoft-todo:hover {
+  opacity: 1;
+}
+.devart-timer-link-microsoft-todo-details .devart-timer-link-icon {
+  margin-left: 8px !important;
+  margin-right: 12px !important;
+}
+.devart-timer-link-hubspot-li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block !important;
+}
+.devart-timer-link-zenhub {
+  align-items: flex-end !important;
+}
+.devart-timer-link-notion {
+  cursor: pointer !important;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  line-height: 1.2;
+  align-items: center !important;
+  display: inline-flex;
+  border-radius: 3px;
+}
+.devart-timer-link-notion:hover {
+  background: rgba(55, 53, 47, 0.08);
+}
+.devart-timer-link-notion .devart-timer-link-icon {
+  margin-top: 2px !important;
+}
+.devart-timer-link-gitlab-container {
+  margin-top: 0.5rem;
+}
+header[style*='display: none'] ~ .devart-timer-link-gitlab-container {
+  display: none;
+}
+.devart-timer-link-figma {
+  display: block !important;
+  height: var(--toolbar-height) !important;
+  line-height: var(--toolbar-height) !important;
+  padding: 0 1rem !important;
+  color: var(--fg-toolbar) !important;
+  cursor: default !important;
+}
+.devart-timer-link-figma .devart-timer-link-icon {
+  line-height: 1 !important;
+}
+.devart-timer-link-figma:hover {
+  color: var(--fg-toolbar-hover) !important;
+  background-color: var(--bg-toolbar-hover) !important;
+}
