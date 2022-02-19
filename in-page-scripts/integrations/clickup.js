@@ -2,7 +2,7 @@ class Clickup {
     constructor() {
         this.showIssueId = false;
         this.observeMutations = true;
-        this.matchUrl = '*://app.clickup.com';
+        this.matchUrl = ['*://app.clickup.com', '*://spiderbox.clickup.com'];
         this.issueElementSelector = [
             '.task',
             '.lv-subtask__outer',
